@@ -96,7 +96,7 @@ func (v *subSchema) validateRecursive(currentSubSchema *subSchema, currentNode i
 
 	// Check for null value
 	if currentNode == nil {
-		if currentSubSchema.types.IsTyped() && !currentSubSchema.types.Contains(TYPE_NULL) {
+		/* if currentSubSchema.types.IsTyped() && !currentSubSchema.types.Contains(TYPE_NULL) {
 			result.addInternalError(
 				new(InvalidTypeError),
 				context,
@@ -110,8 +110,7 @@ func (v *subSchema) validateRecursive(currentSubSchema *subSchema, currentNode i
 		}
 
 		currentSubSchema.validateSchema(currentSubSchema, currentNode, result, context)
-		v.validateCommon(currentSubSchema, currentNode, result, context)
-
+		v.validateCommon(currentSubSchema, currentNode, result, context) */
 	} else { // Not a null value
 
 		if isJSONNumber(currentNode) {

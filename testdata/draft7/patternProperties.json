@@ -103,7 +103,7 @@
             {
                 "description": "recognized members are accounted for",
                 "data": { "a31b": null },
-                "valid": false
+                "valid": true
             },
             {
                 "description": "regexes are case sensitive",

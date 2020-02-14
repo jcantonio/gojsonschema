@@ -39,9 +39,9 @@
                 "valid": false
             },
             {
-                "description": "null is not an integer",
+                "description": "null is accepted as an integer",
                 "data": null,
-                "valid": false
+                "valid": true
             }
         ]
     },
@@ -85,9 +85,9 @@
                 "valid": false
             },
             {
-                "description": "null is not a number",
+                "description": "null is accepted as a number",
                 "data": null,
-                "valid": false
+                "valid": true
             }
         ]
     },
@@ -131,9 +131,9 @@
                 "valid": false
             },
             {
-                "description": "null is not a string",
+                "description": "null is accepted as a string",
                 "data": null,
-                "valid": false
+                "valid": true
             }
         ]
     },
@@ -172,9 +172,9 @@
                 "valid": false
             },
             {
-                "description": "null is not an object",
+                "description": "null is accepted an object",
                 "data": null,
-                "valid": false
+                "valid": true
             }
         ]
     },
@@ -213,9 +213,9 @@
                 "valid": false
             },
             {
-                "description": "null is not an array",
+                "description": "null is accepted as an array",
                 "data": null,
-                "valid": false
+                "valid": true
             }
         ]
     },
@@ -254,9 +254,9 @@
                 "valid": true
             },
             {
-                "description": "null is not a boolean",
+                "description": "null is accepted as a boolean",
                 "data": null,
-                "valid": false
+                "valid": true
             }
         ]
     },
@@ -336,9 +336,9 @@
                 "valid": false
             },
             {
-                "description": "null is invalid",
+                "description": "null is valid",
                 "data": null,
-                "valid": false
+                "valid": true
             }
         ]
     }
